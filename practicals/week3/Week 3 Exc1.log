@@ -1,0 +1,32 @@
+Circuit: * Z:\home\danieltyukov\workspace\tud\tud-analog-circuit-design-fundamentals\practicals\week3\Week 3 Exc1.asc
+
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter ACM
+Ignoring BSIM parameter LDIF
+Ignoring BSIM parameter HDIF
+Ignoring BSIM parameter TLEV
+Ignoring BSIM parameter TLEVC
+Ignoring BSIM parameter CALCACM
+Ignoring BSIM parameter SFVTFLAGl
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Direct Newton iteration for .op point succeeded.
+
+Date: Mon Jan 26 12:42:39 2026
+Total elapsed time: 0.067 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 246
+traniter = 236
+tranpoints = 119
+accept = 118
+rejected = 1
+matrix size = 5
+fillins = 0
+solver = Normal
+Matrix Compiler1: 204 bytes object code size  0.2/0.2/[0.2]
+Matrix Compiler2: off  [0.2]/0.3/0.2
+
