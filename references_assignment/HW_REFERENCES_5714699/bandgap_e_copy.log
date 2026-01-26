@@ -1,0 +1,189 @@
+Questionable use of curly braces in "m4 vx n002 n001 n001 pch l={pl} w={pw}"
+    Error: undefined symbol in: "[pl]"
+Questionable use of curly braces in "m4 vx n002 n001 n001 pch l=(pl) w={pw}"
+    Error: undefined symbol in: "[pw]"
+Questionable use of curly braces in "m5 n002 n002 n001 n001 pch l={pl} w={pw}"
+    Error: undefined symbol in: "[pl]"
+Questionable use of curly braces in "m5 n002 n002 n001 n001 pch l=(pl) w={pw}"
+    Error: undefined symbol in: "[pw]"
+Questionable use of curly braces in "m6 n002 vinp n003 0 nch l={nl} w={nw}"
+    Error: undefined symbol in: "[nl]"
+Questionable use of curly braces in "m6 n002 vinp n003 0 nch l=(nl) w={nw}"
+    Error: undefined symbol in: "[nw]"
+Questionable use of curly braces in "m7 vx vin n003 0 nch l={nl} w={nw}"
+    Error: undefined symbol in: "[nl]"
+Questionable use of curly braces in "m7 vx vin n003 0 nch l=(nl) w={nw}"
+    Error: undefined symbol in: "[nw]"
+Questionable use of curly braces in "m8 n003 n004 0 0 nch l={nl} w={nw}"
+    Error: undefined symbol in: "[nl]"
+Questionable use of curly braces in "m8 n003 n004 0 0 nch l=(nl) w={nw}"
+    Error: undefined symbol in: "[nw]"
+Questionable use of curly braces in "m9 n004 n004 0 0 nch l={nl} w={nw}"
+    Error: undefined symbol in: "[nl]"
+Questionable use of curly braces in "m9 n004 n004 0 0 nch l=(nl) w={nw}"
+    Error: undefined symbol in: "[nw]"
+Circuit: * C:\Users\danie\Desktop\HW_REFERENCES_5714699\bandgap_e_copy.asc
+
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter ACM
+Ignoring BSIM parameter LDIF
+Ignoring BSIM parameter HDIF
+Ignoring BSIM parameter TLEV
+Ignoring BSIM parameter TLEVC
+Ignoring BSIM parameter CALCACM
+Ignoring BSIM parameter SFVTFLAGl
+Error on line 11 : m4 vx n002 n001 n001 pch l=(pl) w=(pw)
+	 Unable to find definition of model "w"
+	
+	*  Unknown parameter "pw"
+Error on line 12 : m5 n002 n002 n001 n001 pch l=(pl) w=(pw)
+	 Unable to find definition of model "w"
+	
+	*  Unknown parameter "pw"
+Error on line 13 : m6 n002 vinp n003 0 nch l=(nl) w=(nw)
+	 Unable to find definition of model "w"
+	
+	*  Unknown parameter "nw"
+Error on line 14 : m7 vx vin n003 0 nch l=(nl) w=(nw)
+	 Unable to find definition of model "w"
+	
+	*  Unknown parameter "nw"
+Error on line 15 : m8 n003 n004 0 0 nch l=(nl) w=(nw)
+	 Unable to find definition of model "w"
+	
+	*  Unknown parameter "nw"
+Error on line 16 : m9 n004 n004 0 0 nch l=(nl) w=(nw)
+	 Unable to find definition of model "w"
+	
+	*  Unknown parameter "nw"
+Error on line 1560 : .model pnp5 pnp ( level = 1  bf =  2.775  nf =  0.9928534  is =  2.5351e-018   ise = 2.5351e-18 isc = 2.5351e-18 ne = 1.3977142  rb =  54.76734  irb = 1.401332e-3 rbm =  1.0965611   re =  1.3979963  ikf = 8.2254e-4 nkf = 0.477972  vaf = 372.731 br = 4.4013e-3 nr = 0.993881  nc = 0.98076 rc =  20.08  ikr = 1.98804e-4  var = 20.84541 xti = 3 eg = 1.17  xtb = 0 trb1 = 1.493714e-3 tirb1 = 1.375303e-5  trm1 = 1.074565e-5 tre1 = 1.068665e-4 tikf1 = -2.512025e-3  tikr1 = -3.93e-3 trc1 = 8e-5 tbf1 = 4.9e-3  tbf2 = 1.1e-6 tnf1 = -1.056025e-4 tne1 = 2.152336e-4  tvaf1 = -4e-5 tbr1 = -1.01e-3 tbr2 = 1.3e-5  tnc1 = 1.122277e-4 tnc2 = 0 tnr1 = -1.026101e-4  tnr2 = 0 cje = 3.2987e-14 vje = 0.895226  mje = 0.4345495 fc = 0 cjc = 3.965229e-14  vjc = 0.5846489 mjc = 0.2933243 tlev = 0  tlevc = 1 cte = 2.0325e-3 ctc = 8.900197e-4  tvje = 1.572025e-3 tvjc = 2.819e-3 tref = 25  subs = 1 )
+	* Unrecognized parameter "nkf" -- ignored
+	* Unrecognized parameter "tirb1" -- ignored
+	* Unrecognized parameter "tikr1" -- ignored
+	* Unrecognized parameter "tbf1" -- ignored
+	* Unrecognized parameter "tbf2" -- ignored
+	* Unrecognized parameter "tnf1" -- ignored
+	* Unrecognized parameter "tne1" -- ignored
+	* Unrecognized parameter "tbr1" -- ignored
+	* Unrecognized parameter "tbr2" -- ignored
+	* Unrecognized parameter "tnc1" -- ignored
+	* Unrecognized parameter "tnc2" -- ignored
+	* Unrecognized parameter "tnr1" -- ignored
+	* Unrecognized parameter "tnr2" -- ignored
+	* Unrecognized parameter "tlev" -- ignored
+	* Unrecognized parameter "tlevc" -- ignored
+	* Unrecognized parameter "cte" -- ignored
+	* Unrecognized parameter "ctc" -- ignored
+	* Unrecognized parameter "tvje" -- ignored
+	* Unrecognized parameter "tvjc" -- ignored
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Direct Newton iteration for .op point succeeded.
+Semiconductor Device Operating Points:
+                        --- Bipolar Transistors ---
+Name:       q3          q2          q1
+Model:     pnp5        pnp5        pnp5
+Ib:      -1.89e-07   -1.90e-07   -1.90e-07
+Ic:      -5.08e-07   -5.09e-07   -5.09e-07
+Vbe:     -6.61e-01   -5.93e-01   -6.61e-01
+Vbc:      0.00e+00    0.00e+00    0.00e+00
+Vce:     -6.61e-01   -5.93e-01   -6.61e-01
+BetaDC:   2.68e+00    2.69e+00    2.68e+00
+Gm:       1.97e-05    1.98e-05    1.98e-05
+Rpi:      1.36e+05    1.36e+05    1.35e+05
+Rx:       5.49e+01    3.92e+00    5.49e+01
+Ro:       7.11e+08    7.11e+08    7.09e+08
+Cbe:      4.37e-14    4.26e-14    4.37e-14
+Cbc:      3.98e-14    3.98e-14    3.98e-14
+Cjs:      0.00e+00    0.00e+00    0.00e+00
+BetaAC:   2.68e+00    2.69e+00    2.68e+00
+Cbx:      0.00e+00    0.00e+00    0.00e+00
+Ft:       3.49e+07    3.55e+07    3.50e+07
+
+                        --- MOSFET Transistors ---
+Name:          m9          m8          m7          m6          m5
+Model:          M           M           M           M           M
+Id:          5.00e-06    3.02e-06    1.59e-06    1.44e-06   -1.44e-06
+Vgs:         7.07e-01    7.07e-01    3.98e-01    3.79e-01   -4.86e-01
+Vds:         7.07e-01    2.63e-01    1.05e+00    1.05e+00   -4.86e-01
+Vbs:         0.00e+00    0.00e+00   -2.63e-01   -2.63e-01    0.00e+00
+Vth:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Vdsat:       7.07e-01    7.07e-01    3.98e-01    3.79e-01    0.00e+00
+Gm:          1.41e-05    5.25e-06    7.97e-06    7.58e-06    0.00e+00
+Gds:         0.00e+00    8.89e-06    0.00e+00    0.00e+00    0.00e+00
+Gmb:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgsov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgdov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgbov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgb:         0.00e+00    0.00e+00    0.00e+00    0.00e+00   -0.00e+00
+
+Name:          m4
+Model:          M
+Id:         -1.59e-06
+Vgs:        -4.86e-01
+Vds:        -4.88e-01
+Vbs:         0.00e+00
+Vth:         0.00e+00
+Vdsat:       2.55e-03
+Gm:          5.10e-08
+Gds:         0.00e+00
+Gmb:         0.00e+00
+Cbd:         0.00e+00
+Cbs:         0.00e+00
+Cgsov:       0.00e+00
+Cgdov:       0.00e+00
+Cgbov:       0.00e+00
+Cgs:         0.00e+00
+Cgd:         0.00e+00
+Cgb:         0.00e+00
+
+                        --- BSIM3 MOSFETS ---
+Name:        m3          m2          m1
+Model:      pch.1       pch.1       pch.1
+Id:       -6.97e-07   -6.99e-07   -6.99e-07
+Vgs:      -4.88e-01   -4.88e-01   -4.88e-01
+Vds:      -8.26e-01   -1.16e+00   -1.14e+00
+Vbs:       0.00e+00    0.00e+00    0.00e+00
+Vth:      -4.37e-01   -4.37e-01   -4.37e-01
+Vdsat:    -9.45e-02   -9.45e-02   -9.45e-02
+Gm:        1.14e-05    1.14e-05    1.14e-05
+Gds:       6.00e-09    5.82e-09    5.82e-09
+Gmb        3.67e-06    3.67e-06    3.67e-06
+Cbd:       0.00e+00    0.00e+00    0.00e+00
+Cbs:       0.00e+00    0.00e+00    0.00e+00
+Cgsov:     1.97e-14    1.97e-14    1.97e-14
+Cgdov:     1.97e-14    1.97e-14    1.97e-14
+Cgbov:     5.75e-15    5.75e-15    5.75e-15
+dQgdVgb:   6.12e-12    6.13e-12    6.13e-12
+dQgdVdb:  -1.92e-14   -1.89e-14   -1.89e-14
+dQgdVsb:  -5.16e-12   -5.16e-12   -5.16e-12
+dQddVgb:  -2.45e-14   -2.21e-14   -2.22e-14
+dQddVdb:   2.04e-14    1.99e-14    1.99e-14
+dQddVsb:   5.73e-15    2.94e-15    3.04e-15
+dQbdVgb:  -1.04e-12   -1.04e-12   -1.04e-12
+dQbdVdb:   1.43e-16    2.19e-16    2.16e-16
+dQbdVsb:  -1.52e-12   -1.52e-12   -1.52e-12
+
+
+
+Date: Mon Nov 10 04:29:26 2025
+Total elapsed time: 4.442 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 16
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 22
+fillins = 7
+solver = Normal
+Matrix Compiler1:     104 opcodes
+Matrix Compiler2: 1.99 KB object code size

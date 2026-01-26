@@ -1,0 +1,97 @@
+Circuit: * C:\Users\danie\Desktop\HW_REFERENCES_5714699\amplifier.asc
+
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter ACM
+Ignoring BSIM parameter LDIF
+Ignoring BSIM parameter HDIF
+Ignoring BSIM parameter TLEV
+Ignoring BSIM parameter TLEVC
+Ignoring BSIM parameter CALCACM
+Ignoring BSIM parameter SFVTFLAGl
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter ACM
+Ignoring BSIM parameter LDIF
+Ignoring BSIM parameter HDIF
+Ignoring BSIM parameter TLEV
+Ignoring BSIM parameter TLEVC
+Ignoring BSIM parameter CALCACM
+Ignoring BSIM parameter SFVTFLAGl
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Direct Newton iteration for .op point succeeded.
+Semiconductor Device Operating Points:
+                        --- BSIM3 MOSFETS ---
+Name:        m2          m1          m6          m5          m4
+Model:      pch.5       pch.5       nch.2       nch.2       nch.2
+Id:       -2.39e-06   -2.39e-06    5.00e-06    4.77e-06    2.39e-06
+Vgs:      -7.63e-01   -7.63e-01    5.82e-01    5.82e-01    6.04e-01
+Vds:      -7.63e-01   -7.63e-01    5.82e-01    1.96e-01    6.41e-01
+Vbs:       0.00e+00    0.00e+00    0.00e+00    0.00e+00   -1.96e-01
+Vth:      -5.73e-01   -5.73e-01    6.30e-01    6.31e-01    6.83e-01
+Vdsat:    -1.78e-01   -1.78e-01    5.18e-02    5.18e-02    4.59e-02
+Gm:        2.16e-05    2.16e-05    1.16e-04    1.12e-04    5.79e-05
+Gds:       1.10e-07    1.10e-07    4.99e-07    9.31e-07    2.54e-07
+Gmb        7.07e-06    7.07e-06    3.37e-05    3.23e-05    1.52e-05
+Cbd:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbs:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgsov:     5.52e-16    5.52e-16    6.96e-15    6.96e-15    6.96e-15
+Cgdov:     5.52e-16    5.52e-16    6.96e-15    6.96e-15    6.96e-15
+Cgbov:     2.64e-16    2.64e-16    1.76e-16    1.76e-16    1.76e-16
+dQgdVgb:   1.22e-14    1.22e-14    5.67e-14    5.67e-14    4.89e-14
+dQgdVdb:  -5.52e-16   -5.52e-16   -6.96e-15   -6.97e-15   -6.96e-15
+dQgdVsb:  -1.07e-14   -1.07e-14   -1.75e-14   -1.75e-14   -1.06e-14
+dQddVgb:  -5.66e-16   -5.66e-16   -6.97e-15   -7.09e-15   -6.96e-15
+dQddVdb:   5.57e-16    5.57e-16    6.96e-15    6.99e-15    6.96e-15
+dQddVsb:   1.38e-17    1.38e-17    2.17e-17    1.42e-16    5.95e-18
+dQbdVgb:  -2.00e-15   -2.00e-15   -3.16e-14   -3.16e-14   -3.12e-14
+dQbdVdb:  -1.13e-18   -1.13e-18    4.39e-19   -4.41e-18    1.46e-19
+dQbdVsb:  -1.79e-15   -1.79e-15   -3.86e-15   -3.87e-15   -1.07e-15
+
+Name:        m3
+Model:      nch.2
+Id:        2.39e-06
+Vgs:       6.04e-01
+Vds:       6.41e-01
+Vbs:      -1.96e-01
+Vth:       6.83e-01
+Vdsat:     4.59e-02
+Gm:        5.79e-05
+Gds:       2.54e-07
+Gmb        1.52e-05
+Cbd:       0.00e+00
+Cbs:       0.00e+00
+Cgsov:     6.96e-15
+Cgdov:     6.96e-15
+Cgbov:     1.76e-16
+dQgdVgb:   4.89e-14
+dQgdVdb:  -6.96e-15
+dQgdVsb:  -1.06e-14
+dQddVgb:  -6.96e-15
+dQddVdb:   6.96e-15
+dQddVsb:   5.95e-18
+dQbdVgb:  -3.12e-14
+dQbdVdb:   1.46e-19
+dQbdVsb:  -1.07e-15
+
+
+
+Date: Mon Nov 10 05:45:54 2025
+Total elapsed time: 0.069 seconds.
+
+tnom = 27
+temp = -40
+method = trap
+totiter = 31
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 14
+fillins = 0
+solver = Normal
+Matrix Compiler1:      31 opcodes
+Matrix Compiler2: 1.03 KB object code size

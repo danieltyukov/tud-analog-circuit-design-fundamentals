@@ -1,0 +1,98 @@
+Circuit: * C:\Users\danie\Desktop\HW_REFERENCES_5714699\bandgap_d.asc
+
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter ACM
+Ignoring BSIM parameter LDIF
+Ignoring BSIM parameter HDIF
+Ignoring BSIM parameter TLEV
+Ignoring BSIM parameter TLEVC
+Ignoring BSIM parameter CALCACM
+Ignoring BSIM parameter SFVTFLAGl
+Error on line 1554 : .model pnp5 pnp ( level = 1  bf =  2.775  nf =  0.9928534  is =  2.5351e-018   ise = 2.5351e-18 isc = 2.5351e-18 ne = 1.3977142  rb =  54.76734  irb = 1.401332e-3 rbm =  1.0965611   re =  1.3979963  ikf = 8.2254e-4 nkf = 0.477972  vaf = 372.731 br = 4.4013e-3 nr = 0.993881  nc = 0.98076 rc =  20.08  ikr = 1.98804e-4  var = 20.84541 xti = 3 eg = 1.17  xtb = 0 trb1 = 1.493714e-3 tirb1 = 1.375303e-5  trm1 = 1.074565e-5 tre1 = 1.068665e-4 tikf1 = -2.512025e-3  tikr1 = -3.93e-3 trc1 = 8e-5 tbf1 = 4.9e-3  tbf2 = 1.1e-6 tnf1 = -1.056025e-4 tne1 = 2.152336e-4  tvaf1 = -4e-5 tbr1 = -1.01e-3 tbr2 = 1.3e-5  tnc1 = 1.122277e-4 tnc2 = 0 tnr1 = -1.026101e-4  tnr2 = 0 cje = 3.2987e-14 vje = 0.895226  mje = 0.4345495 fc = 0 cjc = 3.965229e-14  vjc = 0.5846489 mjc = 0.2933243 tlev = 0  tlevc = 1 cte = 2.0325e-3 ctc = 8.900197e-4  tvje = 1.572025e-3 tvjc = 2.819e-3 tref = 25  subs = 1 )
+	* Unrecognized parameter "nkf" -- ignored
+	* Unrecognized parameter "tirb1" -- ignored
+	* Unrecognized parameter "tikr1" -- ignored
+	* Unrecognized parameter "tbf1" -- ignored
+	* Unrecognized parameter "tbf2" -- ignored
+	* Unrecognized parameter "tnf1" -- ignored
+	* Unrecognized parameter "tne1" -- ignored
+	* Unrecognized parameter "tbr1" -- ignored
+	* Unrecognized parameter "tbr2" -- ignored
+	* Unrecognized parameter "tnc1" -- ignored
+	* Unrecognized parameter "tnc2" -- ignored
+	* Unrecognized parameter "tnr1" -- ignored
+	* Unrecognized parameter "tnr2" -- ignored
+	* Unrecognized parameter "tlev" -- ignored
+	* Unrecognized parameter "tlevc" -- ignored
+	* Unrecognized parameter "cte" -- ignored
+	* Unrecognized parameter "ctc" -- ignored
+	* Unrecognized parameter "tvje" -- ignored
+	* Unrecognized parameter "tvjc" -- ignored
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 7.38483e-006
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.0416667
+Gmin = 7.02977e-006
+vernier = 0.0555555
+Gmin = 6.22998e-006
+vernier = 0.074074
+vernier = 0.0987653
+Gmin = 5.11568e-006
+vernier = 0.131687
+vernier = 0.175583
+Gmin = 3.75027e-006
+vernier = 0.23411
+Gmin = 2.27649e-006
+vernier = 0.312147
+vernier = 0.416196
+Gmin = 1.01812e-006
+vernier = 0.554928
+vernier = 0.739903
+Gmin = 2.92816e-007
+vernier = 0.986537
+Gmin = 4.16248e-008
+vernier = 1
+Gmin = 4.48149e-009
+Gmin = 4.81196e-010
+Gmin = 5.16681e-011
+Gmin = 5.54782e-012
+Gmin = 5.95692e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+.step temp=-40°C
+.step temp=27°C
+.step temp=85°C
+
+Date: Mon Nov 10 03:18:42 2025
+Total elapsed time: 0.125 seconds.
+
+tnom = 27
+temp = 85
+method = trap
+totiter = 946
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 18
+fillins = 8
+solver = Normal
+Matrix Compiler1:      78 opcodes
+Matrix Compiler2: off  [0.0]/0.1/0.2
+

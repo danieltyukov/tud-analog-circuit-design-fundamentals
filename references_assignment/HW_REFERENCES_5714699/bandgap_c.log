@@ -1,0 +1,481 @@
+Circuit: * C:\Users\danie\Desktop\HW_REFERENCES_5714699\bandgap_c.asc
+
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter ACM
+Ignoring BSIM parameter LDIF
+Ignoring BSIM parameter HDIF
+Ignoring BSIM parameter TLEV
+Ignoring BSIM parameter TLEVC
+Ignoring BSIM parameter CALCACM
+Ignoring BSIM parameter SFVTFLAGl
+Error on line 1554 : .model pnp5 pnp ( level = 1  bf =  3.19125  nf =  0.997817667  is =  3.29563e-018   ise = 2.5351e-18 isc = 2.5351e-18 ne = 1.3977142  rb =  43.813872  irb = 1.401332e-3 rbm =  0.87724888   re =  1.11839704  ikf = 8.2254e-4 nkf = 0.477972  vaf = 372.731 br = 4.4013e-3 nr = 0.993881  nc = 0.98076 rc =  16.064  ikr = 1.98804e-4  var = 20.84541 xti = 3 eg = 1.17  xtb = 0 trb1 = 1.493714e-3 tirb1 = 1.375303e-5  trm1 = 1.074565e-5 tre1 = 1.068665e-4 tikf1 = -2.512025e-3  tikr1 = -3.93e-3 trc1 = 8e-5 tbf1 = 4.9e-3  tbf2 = 1.1e-6 tnf1 = -1.056025e-4 tne1 = 2.152336e-4  tvaf1 = -4e-5 tbr1 = -1.01e-3 tbr2 = 1.3e-5  tnc1 = 1.122277e-4 tnc2 = 0 tnr1 = -1.026101e-4  tnr2 = 0 cje = 3.2987e-14 vje = 0.895226  mje = 0.4345495 fc = 0 cjc = 3.965229e-14  vjc = 0.5846489 mjc = 0.2933243 tlev = 0  tlevc = 1 cte = 2.0325e-3 ctc = 8.900197e-4  tvje = 1.572025e-3 tvjc = 2.819e-3 tref = 25  subs = 1 )
+	* Unrecognized parameter "nkf" -- ignored
+	* Unrecognized parameter "tirb1" -- ignored
+	* Unrecognized parameter "tikr1" -- ignored
+	* Unrecognized parameter "tbf1" -- ignored
+	* Unrecognized parameter "tbf2" -- ignored
+	* Unrecognized parameter "tnf1" -- ignored
+	* Unrecognized parameter "tne1" -- ignored
+	* Unrecognized parameter "tbr1" -- ignored
+	* Unrecognized parameter "tbr2" -- ignored
+	* Unrecognized parameter "tnc1" -- ignored
+	* Unrecognized parameter "tnc2" -- ignored
+	* Unrecognized parameter "tnr1" -- ignored
+	* Unrecognized parameter "tnr2" -- ignored
+	* Unrecognized parameter "tlev" -- ignored
+	* Unrecognized parameter "tlevc" -- ignored
+	* Unrecognized parameter "cte" -- ignored
+	* Unrecognized parameter "ctc" -- ignored
+	* Unrecognized parameter "tvje" -- ignored
+	* Unrecognized parameter "tvjc" -- ignored
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+.step temp=-40°C
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 7.38483e-006
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.0416667
+Gmin = 7.02977e-006
+vernier = 0.0555555
+Gmin = 6.22998e-006
+vernier = 0.074074
+vernier = 0.0987653
+Gmin = 5.11568e-006
+vernier = 0.131687
+vernier = 0.175583
+Gmin = 3.75027e-006
+vernier = 0.23411
+Gmin = 2.27649e-006
+vernier = 0.312147
+vernier = 0.416196
+Gmin = 1.01812e-006
+vernier = 0.554928
+vernier = 0.739903
+Gmin = 2.92816e-007
+vernier = 0.986537
+Gmin = 4.16248e-008
+vernier = 1
+Gmin = 4.48149e-009
+Gmin = 4.81196e-010
+Gmin = 5.16681e-011
+Gmin = 5.54782e-012
+Gmin = 5.95692e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+.step temp=-39°C
+.step temp=-38°C
+.step temp=-37°C
+.step temp=-36°C
+.step temp=-35°C
+.step temp=-34°C
+.step temp=-33°C
+.step temp=-32°C
+.step temp=-31°C
+.step temp=-30°C
+.step temp=-29°C
+.step temp=-28°C
+.step temp=-27°C
+.step temp=-26°C
+.step temp=-25°C
+.step temp=-24°C
+.step temp=-23°C
+.step temp=-22°C
+.step temp=-21°C
+.step temp=-20°C
+.step temp=-19°C
+.step temp=-18°C
+.step temp=-17°C
+.step temp=-16°C
+.step temp=-15°C
+.step temp=-14°C
+.step temp=-13°C
+.step temp=-12°C
+.step temp=-11°C
+.step temp=-10°C
+.step temp=-9°C
+.step temp=-8°C
+.step temp=-7°C
+.step temp=-6°C
+.step temp=-5°C
+.step temp=-4°C
+.step temp=-3°C
+.step temp=-2°C
+.step temp=-1°C
+.step temp=0°C
+.step temp=1°C
+.step temp=2°C
+.step temp=3°C
+.step temp=4°C
+.step temp=5°C
+.step temp=6°C
+.step temp=7°C
+.step temp=8°C
+.step temp=9°C
+.step temp=10°C
+.step temp=11°C
+.step temp=12°C
+.step temp=13°C
+.step temp=14°C
+.step temp=15°C
+.step temp=16°C
+.step temp=17°C
+.step temp=18°C
+.step temp=19°C
+.step temp=20°C
+.step temp=21°C
+.step temp=22°C
+.step temp=23°C
+.step temp=24°C
+.step temp=25°C
+.step temp=26°C
+.step temp=27°C
+.step temp=28°C
+.step temp=29°C
+.step temp=30°C
+.step temp=31°C
+.step temp=32°C
+.step temp=33°C
+.step temp=34°C
+.step temp=35°C
+.step temp=36°C
+.step temp=37°C
+.step temp=38°C
+.step temp=39°C
+.step temp=40°C
+.step temp=41°C
+.step temp=42°C
+.step temp=43°C
+.step temp=44°C
+.step temp=45°C
+.step temp=46°C
+.step temp=47°C
+.step temp=48°C
+.step temp=49°C
+.step temp=50°C
+.step temp=51°C
+.step temp=52°C
+.step temp=53°C
+.step temp=54°C
+.step temp=55°C
+.step temp=56°C
+.step temp=57°C
+.step temp=58°C
+.step temp=59°C
+.step temp=60°C
+.step temp=61°C
+.step temp=62°C
+.step temp=63°C
+.step temp=64°C
+.step temp=65°C
+.step temp=66°C
+.step temp=67°C
+.step temp=68°C
+.step temp=69°C
+.step temp=70°C
+.step temp=71°C
+.step temp=72°C
+.step temp=73°C
+.step temp=74°C
+.step temp=75°C
+.step temp=76°C
+.step temp=77°C
+.step temp=78°C
+.step temp=79°C
+.step temp=80°C
+.step temp=81°C
+.step temp=82°C
+.step temp=83°C
+.step temp=84°C
+.step temp=85°C
+
+
+Measurement: vout_max
+  step	MAX(v(vout))	FROM	TO
+     1	1.13752	1.6	1.8
+     2	1.13722	1.6	1.8
+     3	1.13691	1.6	1.8
+     4	1.1366	1.6	1.8
+     5	1.1363	1.6	1.8
+     6	1.13599	1.6	1.8
+     7	1.13568	1.6	1.8
+     8	1.13537	1.6	1.8
+     9	1.13506	1.6	1.8
+    10	1.13475	1.6	1.8
+    11	1.13444	1.6	1.8
+    12	1.13412	1.6	1.8
+    13	1.13381	1.6	1.8
+    14	1.1335	1.6	1.8
+    15	1.13318	1.6	1.8
+    16	1.13287	1.6	1.8
+    17	1.13255	1.6	1.8
+    18	1.13223	1.6	1.8
+    19	1.13192	1.6	1.8
+    20	1.1316	1.6	1.8
+    21	1.13128	1.6	1.8
+    22	1.13096	1.6	1.8
+    23	1.13064	1.6	1.8
+    24	1.13032	1.6	1.8
+    25	1.13	1.6	1.8
+    26	1.12968	1.6	1.8
+    27	1.12935	1.6	1.8
+    28	1.12903	1.6	1.8
+    29	1.12871	1.6	1.8
+    30	1.12838	1.6	1.8
+    31	1.12805	1.6	1.8
+    32	1.12773	1.6	1.8
+    33	1.1274	1.6	1.8
+    34	1.12707	1.6	1.8
+    35	1.12675	1.6	1.8
+    36	1.12642	1.6	1.8
+    37	1.12609	1.6	1.8
+    38	1.12576	1.6	1.8
+    39	1.12543	1.6	1.8
+    40	1.1251	1.6	1.8
+    41	1.12476	1.6	1.8
+    42	1.12443	1.6	1.8
+    43	1.1241	1.6	1.8
+    44	1.12376	1.6	1.8
+    45	1.12343	1.6	1.8
+    46	1.12309	1.6	1.8
+    47	1.12276	1.6	1.8
+    48	1.12242	1.6	1.8
+    49	1.12209	1.6	1.8
+    50	1.12175	1.6	1.8
+    51	1.12141	1.6	1.8
+    52	1.12107	1.6	1.8
+    53	1.12073	1.6	1.8
+    54	1.12039	1.6	1.8
+    55	1.12005	1.6	1.8
+    56	1.11971	1.6	1.8
+    57	1.11937	1.6	1.8
+    58	1.11902	1.6	1.8
+    59	1.11868	1.6	1.8
+    60	1.11834	1.6	1.8
+    61	1.11799	1.6	1.8
+    62	1.11765	1.6	1.8
+    63	1.1173	1.6	1.8
+    64	1.11696	1.6	1.8
+    65	1.11661	1.6	1.8
+    66	1.11626	1.6	1.8
+    67	1.11592	1.6	1.8
+    68	1.11557	1.6	1.8
+    69	1.11522	1.6	1.8
+    70	1.11487	1.6	1.8
+    71	1.11452	1.6	1.8
+    72	1.11417	1.6	1.8
+    73	1.11382	1.6	1.8
+    74	1.11346	1.6	1.8
+    75	1.11311	1.6	1.8
+    76	1.11276	1.6	1.8
+    77	1.11241	1.6	1.8
+    78	1.11205	1.6	1.8
+    79	1.1117	1.6	1.8
+    80	1.11134	1.6	1.8
+    81	1.11099	1.6	1.8
+    82	1.11063	1.6	1.8
+    83	1.11027	1.6	1.8
+    84	1.10992	1.6	1.8
+    85	1.10956	1.6	1.8
+    86	1.1092	1.6	1.8
+    87	1.10884	1.6	1.8
+    88	1.10848	1.6	1.8
+    89	1.10812	1.6	1.8
+    90	1.10776	1.6	1.8
+    91	1.1074	1.6	1.8
+    92	1.10704	1.6	1.8
+    93	1.10667	1.6	1.8
+    94	1.10631	1.6	1.8
+    95	1.10595	1.6	1.8
+    96	1.10558	1.6	1.8
+    97	1.10522	1.6	1.8
+    98	1.10485	1.6	1.8
+    99	1.10449	1.6	1.8
+   100	1.10412	1.6	1.8
+   101	1.10376	1.6	1.8
+   102	1.10339	1.6	1.8
+   103	1.10302	1.6	1.8
+   104	1.10265	1.6	1.8
+   105	1.10229	1.6	1.8
+   106	1.10192	1.6	1.8
+   107	1.10155	1.6	1.8
+   108	1.10118	1.6	1.8
+   109	1.10081	1.6	1.8
+   110	1.10044	1.6	1.8
+   111	1.10006	1.6	1.8
+   112	1.09969	1.6	1.8
+   113	1.09932	1.6	1.8
+   114	1.09895	1.6	1.8
+   115	1.09857	1.6	1.8
+   116	1.0982	1.6	1.8
+   117	1.09782	1.6	1.8
+   118	1.09745	1.6	1.8
+   119	1.09707	1.6	1.8
+   120	1.0967	1.6	1.8
+   121	1.09632	1.6	1.8
+   122	1.09594	1.6	1.8
+   123	1.09557	1.6	1.8
+   124	1.09519	1.6	1.8
+   125	1.09481	1.6	1.8
+   126	1.09443	1.6	1.8
+
+Measurement: vout_min
+  step	MIN(v(vout))	FROM	TO
+     1	1.13726	1.6	1.8
+     2	1.13695	1.6	1.8
+     3	1.13665	1.6	1.8
+     4	1.13634	1.6	1.8
+     5	1.13603	1.6	1.8
+     6	1.13572	1.6	1.8
+     7	1.13541	1.6	1.8
+     8	1.1351	1.6	1.8
+     9	1.13479	1.6	1.8
+    10	1.13448	1.6	1.8
+    11	1.13417	1.6	1.8
+    12	1.13385	1.6	1.8
+    13	1.13354	1.6	1.8
+    14	1.13322	1.6	1.8
+    15	1.13291	1.6	1.8
+    16	1.13259	1.6	1.8
+    17	1.13228	1.6	1.8
+    18	1.13196	1.6	1.8
+    19	1.13164	1.6	1.8
+    20	1.13132	1.6	1.8
+    21	1.131	1.6	1.8
+    22	1.13068	1.6	1.8
+    23	1.13036	1.6	1.8
+    24	1.13004	1.6	1.8
+    25	1.12972	1.6	1.8
+    26	1.12939	1.6	1.8
+    27	1.12907	1.6	1.8
+    28	1.12875	1.6	1.8
+    29	1.12842	1.6	1.8
+    30	1.1281	1.6	1.8
+    31	1.12777	1.6	1.8
+    32	1.12744	1.6	1.8
+    33	1.12712	1.6	1.8
+    34	1.12679	1.6	1.8
+    35	1.12646	1.6	1.8
+    36	1.12613	1.6	1.8
+    37	1.1258	1.6	1.8
+    38	1.12547	1.6	1.8
+    39	1.12514	1.6	1.8
+    40	1.1248	1.6	1.8
+    41	1.12447	1.6	1.8
+    42	1.12414	1.6	1.8
+    43	1.1238	1.6	1.8
+    44	1.12347	1.6	1.8
+    45	1.12313	1.6	1.8
+    46	1.1228	1.6	1.8
+    47	1.12246	1.6	1.8
+    48	1.12213	1.6	1.8
+    49	1.12179	1.6	1.8
+    50	1.12145	1.6	1.8
+    51	1.12111	1.6	1.8
+    52	1.12077	1.6	1.8
+    53	1.12043	1.6	1.8
+    54	1.12009	1.6	1.8
+    55	1.11975	1.6	1.8
+    56	1.11941	1.6	1.8
+    57	1.11906	1.6	1.8
+    58	1.11872	1.6	1.8
+    59	1.11838	1.6	1.8
+    60	1.11803	1.6	1.8
+    61	1.11769	1.6	1.8
+    62	1.11734	1.6	1.8
+    63	1.117	1.6	1.8
+    64	1.11665	1.6	1.8
+    65	1.1163	1.6	1.8
+    66	1.11595	1.6	1.8
+    67	1.1156	1.6	1.8
+    68	1.11526	1.6	1.8
+    69	1.11491	1.6	1.8
+    70	1.11456	1.6	1.8
+    71	1.11421	1.6	1.8
+    72	1.11385	1.6	1.8
+    73	1.1135	1.6	1.8
+    74	1.11315	1.6	1.8
+    75	1.1128	1.6	1.8
+    76	1.11244	1.6	1.8
+    77	1.11209	1.6	1.8
+    78	1.11173	1.6	1.8
+    79	1.11138	1.6	1.8
+    80	1.11102	1.6	1.8
+    81	1.11067	1.6	1.8
+    82	1.11031	1.6	1.8
+    83	1.10995	1.6	1.8
+    84	1.10959	1.6	1.8
+    85	1.10923	1.6	1.8
+    86	1.10888	1.6	1.8
+    87	1.10852	1.6	1.8
+    88	1.10816	1.6	1.8
+    89	1.10779	1.6	1.8
+    90	1.10743	1.6	1.8
+    91	1.10707	1.6	1.8
+    92	1.10671	1.6	1.8
+    93	1.10635	1.6	1.8
+    94	1.10598	1.6	1.8
+    95	1.10562	1.6	1.8
+    96	1.10525	1.6	1.8
+    97	1.10489	1.6	1.8
+    98	1.10452	1.6	1.8
+    99	1.10416	1.6	1.8
+   100	1.10379	1.6	1.8
+   101	1.10342	1.6	1.8
+   102	1.10306	1.6	1.8
+   103	1.10269	1.6	1.8
+   104	1.10232	1.6	1.8
+   105	1.10195	1.6	1.8
+   106	1.10158	1.6	1.8
+   107	1.10121	1.6	1.8
+   108	1.10084	1.6	1.8
+   109	1.10047	1.6	1.8
+   110	1.1001	1.6	1.8
+   111	1.09972	1.6	1.8
+   112	1.09935	1.6	1.8
+   113	1.09898	1.6	1.8
+   114	1.09861	1.6	1.8
+   115	1.09823	1.6	1.8
+   116	1.09786	1.6	1.8
+   117	1.09748	1.6	1.8
+   118	1.09711	1.6	1.8
+   119	1.09673	1.6	1.8
+   120	1.09635	1.6	1.8
+   121	1.09598	1.6	1.8
+   122	1.0956	1.6	1.8
+   123	1.09522	1.6	1.8
+   124	1.09484	1.6	1.8
+   125	1.09446	1.6	1.8
+   126	1.09408	1.6	1.8
+
+
+Date: Mon Nov 10 05:01:44 2025
+Total elapsed time: 3.682 seconds.
+
+tnom = 27
+temp = 85
+method = trap
+totiter = 1124
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 18
+fillins = 8
+solver = Normal
+Matrix Compiler1:      78 opcodes
+Matrix Compiler2: off  [0.1]/0.1/0.1
+

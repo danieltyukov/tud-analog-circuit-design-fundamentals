@@ -1,0 +1,115 @@
+Questionable use of curly braces in "m4 vx n002 n001 n001 pch l={pl} w={pw}"
+    Error: undefined symbol in: "[pl]"
+Questionable use of curly braces in "m4 vx n002 n001 n001 pch l=(pl) w={pw}"
+    Error: undefined symbol in: "[pw]"
+Questionable use of curly braces in "m5 n002 n002 n001 n001 pch l={pl} w={pw}"
+    Error: undefined symbol in: "[pl]"
+Questionable use of curly braces in "m5 n002 n002 n001 n001 pch l=(pl) w={pw}"
+    Error: undefined symbol in: "[pw]"
+Questionable use of curly braces in "m6 n002 vinp n003 0 nch l={nl} w={nw}"
+    Error: undefined symbol in: "[nl]"
+Questionable use of curly braces in "m6 n002 vinp n003 0 nch l=(nl) w={nw}"
+    Error: undefined symbol in: "[nw]"
+Questionable use of curly braces in "m7 vx vin n003 0 nch l={nl} w={nw}"
+    Error: undefined symbol in: "[nl]"
+Questionable use of curly braces in "m7 vx vin n003 0 nch l=(nl) w={nw}"
+    Error: undefined symbol in: "[nw]"
+Questionable use of curly braces in "m8 n003 n004 0 0 nch l={nl} w={nw}"
+    Error: undefined symbol in: "[nl]"
+Questionable use of curly braces in "m8 n003 n004 0 0 nch l=(nl) w={nw}"
+    Error: undefined symbol in: "[nw]"
+Questionable use of curly braces in "m9 n004 n004 0 0 nch l={nl} w={nw}"
+    Error: undefined symbol in: "[nl]"
+Questionable use of curly braces in "m9 n004 n004 0 0 nch l=(nl) w={nw}"
+    Error: undefined symbol in: "[nw]"
+Circuit: * C:\Users\danie\Desktop\HW_REFERENCES_5714699\bandgap_e.asc
+
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter ACM
+Ignoring BSIM parameter LDIF
+Ignoring BSIM parameter HDIF
+Ignoring BSIM parameter TLEV
+Ignoring BSIM parameter TLEVC
+Ignoring BSIM parameter CALCACM
+Ignoring BSIM parameter SFVTFLAGl
+Error on line 11 : m4 vx n002 n001 n001 pch l=(pl) w=(pw)
+	 Unable to find definition of model "w"
+	
+	*  Unknown parameter "pw"
+Error on line 12 : m5 n002 n002 n001 n001 pch l=(pl) w=(pw)
+	 Unable to find definition of model "w"
+	
+	*  Unknown parameter "pw"
+Error on line 13 : m6 n002 vinp n003 0 nch l=(nl) w=(nw)
+	 Unable to find definition of model "w"
+	
+	*  Unknown parameter "nw"
+Error on line 14 : m7 vx vin n003 0 nch l=(nl) w=(nw)
+	 Unable to find definition of model "w"
+	
+	*  Unknown parameter "nw"
+Error on line 15 : m8 n003 n004 0 0 nch l=(nl) w=(nw)
+	 Unable to find definition of model "w"
+	
+	*  Unknown parameter "nw"
+Error on line 16 : m9 n004 n004 0 0 nch l=(nl) w=(nw)
+	 Unable to find definition of model "w"
+	
+	*  Unknown parameter "nw"
+Error on line 1560 : .model pnp5 pnp ( level = 1  bf =  2.775  nf =  0.9928534  is =  2.5351e-018   ise = 2.5351e-18 isc = 2.5351e-18 ne = 1.3977142  rb =  54.76734  irb = 1.401332e-3 rbm =  1.0965611   re =  1.3979963  ikf = 8.2254e-4 nkf = 0.477972  vaf = 372.731 br = 4.4013e-3 nr = 0.993881  nc = 0.98076 rc =  20.08  ikr = 1.98804e-4  var = 20.84541 xti = 3 eg = 1.17  xtb = 0 trb1 = 1.493714e-3 tirb1 = 1.375303e-5  trm1 = 1.074565e-5 tre1 = 1.068665e-4 tikf1 = -2.512025e-3  tikr1 = -3.93e-3 trc1 = 8e-5 tbf1 = 4.9e-3  tbf2 = 1.1e-6 tnf1 = -1.056025e-4 tne1 = 2.152336e-4  tvaf1 = -4e-5 tbr1 = -1.01e-3 tbr2 = 1.3e-5  tnc1 = 1.122277e-4 tnc2 = 0 tnr1 = -1.026101e-4  tnr2 = 0 cje = 3.2987e-14 vje = 0.895226  mje = 0.4345495 fc = 0 cjc = 3.965229e-14  vjc = 0.5846489 mjc = 0.2933243 tlev = 0  tlevc = 1 cte = 2.0325e-3 ctc = 8.900197e-4  tvje = 1.572025e-3 tvjc = 2.819e-3 tref = 25  subs = 1 )
+	* Unrecognized parameter "nkf" -- ignored
+	* Unrecognized parameter "tirb1" -- ignored
+	* Unrecognized parameter "tikr1" -- ignored
+	* Unrecognized parameter "tbf1" -- ignored
+	* Unrecognized parameter "tbf2" -- ignored
+	* Unrecognized parameter "tnf1" -- ignored
+	* Unrecognized parameter "tne1" -- ignored
+	* Unrecognized parameter "tbr1" -- ignored
+	* Unrecognized parameter "tbr2" -- ignored
+	* Unrecognized parameter "tnc1" -- ignored
+	* Unrecognized parameter "tnc2" -- ignored
+	* Unrecognized parameter "tnr1" -- ignored
+	* Unrecognized parameter "tnr2" -- ignored
+	* Unrecognized parameter "tlev" -- ignored
+	* Unrecognized parameter "tlevc" -- ignored
+	* Unrecognized parameter "cte" -- ignored
+	* Unrecognized parameter "ctc" -- ignored
+	* Unrecognized parameter "tvje" -- ignored
+	* Unrecognized parameter "tvjc" -- ignored
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+.step temp=-40°C
+.step temp=27°C
+.step temp=85°C
+
+
+Measurement: vout_max
+  step	MAX(v(vout))	FROM	TO
+     1	1.72984	1.6	1.8
+     2	0.974406	1.6	1.8
+     3	0.53404	1.6	1.8
+
+Measurement: vout_min
+  step	MIN(v(vout))	FROM	TO
+     1	1.54752	1.6	1.8
+     2	0.973809	1.6	1.8
+     3	0.533891	1.6	1.8
+
+
+Date: Mon Nov 10 05:05:30 2025
+Total elapsed time: 4.735 seconds.
+
+tnom = 27
+temp = 85
+method = trap
+totiter = 35
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 22
+fillins = 7
+solver = Normal
+Matrix Compiler1: 1.82 KB object code size
+Matrix Compiler2: 1.99 KB object code size
