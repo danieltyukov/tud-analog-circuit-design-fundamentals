@@ -1,0 +1,26 @@
+* C:\Users\danie\Desktop\Daniel_Tyukov_HW4\q3c2.asc
+Vac1 Vdm 0 SINE(0 10m 20k) AC 1
+Vcm N003 0 0.6
+Ep Vin1 N003 Vdm 0 0.5
+Em Vin2 N003 Vdm 0 -0.5
+Vdd Vdd 0 1.8
+M6 Vdd Vbp Vbp Vdd pch l=200n w=6u
+M5 Vdd Vbp N001 Vdd pch l=200n w=12u
+M2 N001 Vin1 VA Vdd pch l=1u w=24u
+M1 N001 Vin2 Vo1 Vdd pch l=1u w=24u
+M4 VA VA 0 0 nch l=200n w=3u
+M3 Vo1 VA 0 0 nch l=200n w=3u
+R1 Vbp N002 50k
+Ib N002 0 20µ
+CL Vout 0 10p
+M8 Vout Vo1 0 Vout pch l=200n w=6u
+M7 Vdd Vbp Vout Vdd pch l=200n w=6u
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\danie\Documents\LTspiceXVII\lib\cmp\standard.mos
+.lib 'C:\Program Files\LTC\LTspiceXVII\lib\cmp\log018.l' TT
+;ac dec 10 1 1e9
+.op
+.tran 500u
+.backanno
+.end

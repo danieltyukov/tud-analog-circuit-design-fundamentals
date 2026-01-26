@@ -1,0 +1,26 @@
+* C:\Users\danie\Desktop\Daniel_Tyukov_HW3\e4.asc
+M1 out+ Vin1 N003 0 nch l=Lm w=Wm
+M2 out- Vin2 N003 0 nch l=Lm w=Wm
+M3 N001 out+ out- N001 pch l=0.5u w=2u
+M4 N001 out+ out+ N001 pch l=0.5u w=2u
+V1 N001 0 1.8
+M5 N003 N004 0 0 nch l=5u w=30u
+M6 N004 N004 0 0 nch l=5u w=15u
+Iref 0 N004 20µ
+Vcm N002 0 1.2
+Ep Vin1 N002 VDM 0 0.5
+Em Vin2 N002 VDM 0 -0.5
+Vac1 VDM 0 AC 1
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\danie\Documents\LTspiceXVII\lib\cmp\standard.mos
+.ac dec 10 1 1e7
+.op
+.lib 'C:\Program Files\LTC\LTspiceXVII\lib\cmp\log018.l' TT
+;step param Lm list 0.18u 0.4u 0.8u 1.2u 1.6u 2u 3u 4u 5u
+;step param Wm list 0.22u 0.5u 1u 2u 3u 5u 8u 12u 20u 30u
+.meas AC Gain_dB PARAM 20*log10(mag((V(outp)-V(outn))
+.param Wm = 2u
+.param Lm = 1.2u
+.backanno
+.end

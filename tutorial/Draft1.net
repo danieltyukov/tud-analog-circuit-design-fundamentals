@@ -1,0 +1,20 @@
+* Z:\home\danieltyukov\workspace\tud\tud-analog-circuit-design-fundamentals\tutorial\Draft1.asc
+M1 OUT N003 0 0 nch l=180n w=10u m=2
+M2 OUT N001 VDD VDD pch l=180n w=10u m=2
+Vin N003 N002 SINE(0 {Vin} 100Meg) AC 1
+Vbn N002 0 0.6
+V1 VDD 0 1.8
+Vpb VDD N001 0.8
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\users\danieltyukov\Documents\LTspiceXVII\lib\cmp\standard.mos
+.lib 'C:\Program Files\LTC\LTspiceXVII\lib\cmp\log018.l' TT
+* .dc Vin -0.4 1 0.001
+* .op
+* .ac dec 20 1k 100G
+* .tran 80n
+.noise V(OUT) Vin dec 20 1 100G
+.param Vin 12.5m
+.step param Vin list 12.5m 25m 50m 100m
+.backanno
+.end
