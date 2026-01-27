@@ -1,0 +1,77 @@
+Circuit: * Z:\home\danieltyukov\workspace\tud\tud-analog-circuit-design-fundamentals\references_assignment_resit\SPICE_RESIT.asc
+
+Error on line 340 : .model pnp5 pnp ( level = 1  bf =  2.775  nf =  0.9928534  is =  2.5351e-018   ise = 2.5351e-18 isc = 2.5351e-18 ne = 1.3977142  rb =  54.76734  irb = 1.401332e-3 rbm =  1.0965611   re =  1.3979963  ikf = 8.2254e-4 nkf = 0.477972  vaf = 372.731 br = 4.4013e-3 nr = 0.993881  nc = 0.98076 rc =  20.08  ikr = 1.98804e-4  var = 20.84541 xti = 3 eg = 1.17  xtb = 0 trb1 = 1.493714e-3 tirb1 = 1.375303e-5  trm1 = 1.074565e-5 tre1 = 1.068665e-4 tikf1 = -2.512025e-3  tikr1 = -3.93e-3 trc1 = 8e-5 tbf1 = 4.9e-3  tbf2 = 1.1e-6 tnf1 = -1.056025e-4 tne1 = 2.152336e-4  tvaf1 = -4e-5 tbr1 = -1.01e-3 tbr2 = 1.3e-5  tnc1 = 1.122277e-4 tnc2 = 0 tnr1 = -1.026101e-4  tnr2 = 0 cje = 3.2987e-14 vje = 0.895226  mje = 0.4345495 fc = 0 cjc = 3.965229e-14  vjc = 0.5846489 mjc = 0.2933243 tlev = 0  tlevc = 1 cte = 2.0325e-3 ctc = 8.900197e-4  tvje = 1.572025e-3 tvjc = 2.819e-3 tref = 25  subs = 1 )
+	* Unrecognized parameter "nkf" -- ignored
+	* Unrecognized parameter "tirb1" -- ignored
+	* Unrecognized parameter "tikr1" -- ignored
+	* Unrecognized parameter "tbf1" -- ignored
+	* Unrecognized parameter "tbf2" -- ignored
+	* Unrecognized parameter "tnf1" -- ignored
+	* Unrecognized parameter "tne1" -- ignored
+	* Unrecognized parameter "tbr1" -- ignored
+	* Unrecognized parameter "tbr2" -- ignored
+	* Unrecognized parameter "tnc1" -- ignored
+	* Unrecognized parameter "tnc2" -- ignored
+	* Unrecognized parameter "tnr1" -- ignored
+	* Unrecognized parameter "tnr2" -- ignored
+	* Unrecognized parameter "tlev" -- ignored
+	* Unrecognized parameter "tlevc" -- ignored
+	* Unrecognized parameter "cte" -- ignored
+	* Unrecognized parameter "ctc" -- ignored
+	* Unrecognized parameter "tvje" -- ignored
+	* Unrecognized parameter "tvjc" -- ignored
+.step r2val=380000
+Direct Newton iteration for .op point succeeded.
+Semiconductor Device Operating Points:
+                        --- Bipolar Transistors ---
+Name:       q2          q1
+Model:     pnp5        pnp5
+Ib:      -6.33e-07   -7.09e-07
+Ic:      -1.69e-06   -1.89e-06
+Vbe:     -7.59e-01   -8.14e-01
+Vbc:      0.00e+00    0.00e+00
+Vce:     -7.59e-01   -8.14e-01
+BetaDC:   2.67e+00    2.66e+00
+Gm:       8.46e-05    9.42e-05
+Rpi:      3.15e+04    2.81e+04
+Rx:       3.53e+00    4.94e+01
+Ro:       2.13e+08    1.90e+08
+Cbe:      4.19e-14    4.27e-14
+Cbc:      3.64e-14    3.64e-14
+Cjs:      0.00e+00    0.00e+00
+BetaAC:   2.67e+00    2.65e+00
+Cbx:      0.00e+00    0.00e+00
+Ft:       1.59e+08    1.76e+08
+
+
+.step r2val=390000
+.step r2val=400000
+.step r2val=410000
+.step r2val=420000
+.step r2val=430000
+.step r2val=440000
+.step r2val=450000
+.step r2val=460000
+.step r2val=470000
+.step r2val=480000
+.step r2val=490000
+.step r2val=500000
+.step r2val=510000
+.step r2val=520000
+
+Date: Tue Jan 27 13:34:40 2026
+Total elapsed time: 0.441 seconds.
+
+tnom = 27
+temp = 85
+method = trap
+totiter = 15
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 11
+fillins = 0
+solver = Normal
+Matrix Compiler1: 592 bytes object code size
+Matrix Compiler2: 827 bytes object code size

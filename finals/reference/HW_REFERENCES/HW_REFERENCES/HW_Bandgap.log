@@ -1,4 +1,4 @@
-Circuit: * Z:\home\danieltyukov\workspace\tud\tud-analog-circuit-design-fundamentals\references_assignment\HW_REFERENCES_5714699\HW_Bandgap.asc
+Circuit: * Z:\home\danieltyukov\workspace\tud\tud-analog-circuit-design-fundamentals\finals\reference\HW_REFERENCES\HW_REFERENCES\HW_Bandgap.asc
 
 Ignoring BSIM parameter XL
 Ignoring BSIM parameter XW
@@ -69,27 +69,13 @@ Gmin stepping succeeded in finding the operating point.
 .step temp=27°C
 .step temp=85°C
 
-
-Measurement: vout_max
-  step	MAX(v(vout))	FROM	TO
-     1	1.03807	1.6	1.8
-     2	0.990413	1.6	1.8
-     3	0.946915	1.6	1.8
-
-Measurement: vout_min
-  step	MIN(v(vout))	FROM	TO
-     1	1.03754	1.6	1.8
-     2	0.989734	1.6	1.8
-     3	0.946112	1.6	1.8
-
-
-Date: Tue Jan 27 13:26:05 2026
-Total elapsed time: 0.133 seconds.
+Date: Tue Jan 27 13:25:08 2026
+Total elapsed time: 0.143 seconds.
 
 tnom = 27
 temp = 85
 method = trap
-totiter = 1020
+totiter = 1025
 traniter = 0
 tranpoints = 0
 accept = 0

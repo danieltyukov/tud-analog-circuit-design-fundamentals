@@ -1,0 +1,19 @@
+* Z:\home\danieltyukov\workspace\tud\tud-analog-circuit-design-fundamentals\references_assignment_resit\SPICE_RESIT.asc
+Q1 0 0 N002 0 PNP5
+Q2 0 0 N003 0 PNP5 m=14
+R1 N001 N003 68.2k
+R2 Vout N001 {R2val}
+R3 Vout N002 {R2val}
+V1 Vout 0 1.8
+.model NPN NPN
+.model PNP PNP
+.lib C:\users\danieltyukov\Documents\LTspiceXVII\lib\cmp\standard.bjt
+.step temp list -40 27 85
+.lib 'C:\Program Files\LTC\LTspiceXVII\lib\cmp\log018_mod.l' TT
+.lib 'C:\Program Files\LTC\LTspiceXVII\lib\cmp\log018_mod.l' TT_BIP
+;dc V1 1.6 1.8 0.05
+.param R2val=450k
+.step param R2val 380k 520k 10k
+.op
+.backanno
+.end
